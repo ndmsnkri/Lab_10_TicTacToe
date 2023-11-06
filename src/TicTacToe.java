@@ -1,5 +1,44 @@
 import java.util.Scanner;
 
+//Initialize the board and set the current player to X
+//clearBoard()
+//        currentPlayer = "X"
+//
+// Start the game loop
+//        gameOver = false
+//        while (not gameOver):
+//      Display the current board
+//        showBoard()
+//
+//      Get the player's move (row and column)
+//        playerMove = getPlayerMove()
+//
+//      Convert the player's move to array indices (0-2)
+//        row = playerMove.row - 1
+//        col = playerMove.col - 1
+//
+//      Check if the move is valid
+//        if (isValidMove(row, col)):
+//      Update the board with the player's move
+//        board[row][col] = currentPlayer
+//
+//      Check for a win
+//        if (isWin(currentPlayer)):
+//        announceWinner(currentPlayer)
+//        gameOver = true
+//      Check for a tie
+//        else if (isTie()):
+//        announceTie()
+//        gameOver = true
+//        else:
+//      Toggle the player for the next turn
+//        togglePlayer()
+//        else:
+//      Invalid move, ask the player to try again
+//        print("Invalid move. Please try again.")
+//
+// End of game loop
+
 public class TicTacToe {
     private static final int ROW = 3;
     private static final int COL = 3;
